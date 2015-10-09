@@ -1,0 +1,269 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+	background-color: #000000;
+	color: #ffffff;
+	font-family: sans-serif;
+}
+ 
+/*NavBar*/
+nav {
+}
+
+.nav {
+	text-decoration: none;
+	color: white;
+  position: fixed;
+	padding: 5px;
+	z-index: 1;
+}
+
+#nav-ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+	font-size: 20px;
+}
+
+/*.active-li {
+	opacity: 0;
+}
+*/
+.active-li:hover {
+	background: #00bfff;
+	opacity: 1;
+	color: white;
+	text-decoration: none;
+}
+
+.active-li:active {
+	background: #00bfff;
+	opacity: 1;
+	color: white;
+	text-decoration: none;
+}
+
+
+li {
+	padding: 0px -3px 0px -3px;
+	margin: 2px;
+}
+
+ .row-fluid {
+	 padding: 20px 0px 20px 0px;
+ }
+
+.content-section {
+    padding-top: 100px;
+}
+
+section {
+	margin-top: 300px;
+}
+
+.section-title {
+	text-align: center;
+	font-size: 50px;
+	text-shadow: 2px 2px 8px white;
+}
+
+.section-font {
+	font-size: 25px;
+}
+
+/*Intro Section*/
+.intro {
+	margin-top: -40px;
+	text-align: center;
+	background: url(image-path('jPond.jpg')) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.intro-body {
+	height: 775px;
+}
+
+.brand-heading {
+	color: black;
+	text-shadow: 2px 2px 8px white;
+}
+
+.intro-text {
+	border: 2px solid black;
+	border-radius: 25px;
+	background: black;
+}
+
+.intro .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.intro .intro-body .brand-heading {
+    font-size: 40px;
+}
+
+.intro .intro-body .intro-text {
+    font-size: 18px;
+}
+
+@media(min-width:768px) {
+    .intro {
+        height: 100%;
+        padding: 0;
+    }
+
+    .intro .intro-body .brand-heading {
+        font-size: 100px;
+    }
+
+    .intro .intro-body .intro-text {
+        font-size: 26px;
+    }
+}
+
+/*Project Section*/
+.project-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    /*background: url(../img/downloads-bg.jpg) no-repeat center center scroll;*/
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	text-align: center;
+}
+
+.project-section h1 {
+    font-size: 60px;
+    color: #00bfff;
+}
+
+/*About Section*/
+.about-section {
+    display: table;
+    width: 100%;
+    height: 700px;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url(image-path('gardenOfTheGods.jpg')) no-repeat bottom center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+.about-section h1 {
+    color: black;
+}
+
+#about-p {
+	border: 2px solid black;
+	border-radius: 25px;
+	background: black;
+}
+
+#about-p p {
+	margin: 15px;
+	font-size: 20px;
+}
+
+/*Resume Section*/
+.resume {
+    margin-right: 50px;
+}
+
+#resume-title {
+	margin-bottom: 50px;
+}
+
+.resume h2 {
+    color: gray;
+}
+
+.resume ul {
+    /*margin-top: -30px;*/
+    margin-bottom: 30px;
+    list-style-type: square;
+}
+
+.resumeIntro {
+    margin-bottom: -15px;
+}
+
+.exp p, .exp ul {
+	font-size: 25px;
+}
+
+.exp p {
+    /*margin-top: -40px;*/
+    font-weight: 700;
+}
+
+.exp h2 {
+    color: #89e1ff;
+}
+
+.exp h3 {
+    color: #8a8a8a;
+}
+
+.indExp h3, p, ul {
+	margin-bottom: 0px;
+}
+
+#cent {
+	text-align: center;
+}
+
+/*Contact Section*/
+.contact-section {
+    display: table;
+    width: 100%;
+    height: auto;
+	justify-content: center;
+    color: #fff;
+    background: url(../img/Mac.jpg) no-repeat bottom center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+#contact ul {
+	justify-content: center;
+}
+
+.contact-list {
+	list-style-type: none;
+	display: flex;
+}
+
+#con-b{
+	background: #00bbff;
+	border: 2px solid #00bbff;
+	color: white;
+	text-shadow: 2px 2px 8px black;
+}
+
+#ul-top {
+	padding-bottom: 30px;
+}
+
+#ul-bot li {
+	padding: 0px 15px 0px 15px;
+}
+
+#contact h1 {
+	margin: -200px 0px 50px 0px;
+	
+}
